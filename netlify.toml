@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+
+# Keep the old URL working
+[[redirects]]
+  from = "/brightnest.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/brightnest"
+  to = "/"
+  status = 301
